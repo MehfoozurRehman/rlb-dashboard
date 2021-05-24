@@ -1,7 +1,7 @@
 import React from "react";
-import { Col, Row, Button, Nav, Form } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import "./JobListingPanel.scss";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import PostingRow from "../components/PostingRow";
 import JobListingDetailsPanel from "./JobListingDetailsPanel";
 

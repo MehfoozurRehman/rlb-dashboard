@@ -1,8 +1,7 @@
 import React from "react";
 import "./ApplicantsPanel.scss";
-import { Col, Row, Nav } from "react-bootstrap";
-import { Switch, Route, Link } from "react-router-dom";
-import InputboxComponent from "../components/Inputbox";
+import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import ButtonComponent from "../components/Button";
 
 function ApplicantsRow() {

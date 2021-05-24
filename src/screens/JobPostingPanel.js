@@ -1,7 +1,5 @@
 import React from "react";
 import "./JobPostingPanel.scss";
-import { Nav, Col, Row, Form, Button } from "react-bootstrap";
-import { Switch, Route, Link } from "react-router-dom";
 import ButtonComponent from "../components/Button";
 import InputBox from "../components/Inputbox";
 

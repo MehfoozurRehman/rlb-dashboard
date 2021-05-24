@@ -1,7 +1,7 @@
 import React from "react";
 import SideBar from "../components/SideBar";
 import "./Dashboard.scss";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import DashboardPanel from "./DashboardPanel";
 import ApplicantsPanel from "./ApplicantsPanel";
 import JobListingPanel from "./JobListingPanel";

@@ -11,7 +11,7 @@ class ChartsPage extends React.Component {
           label: "My First Dataset",
           data: [22, 33, 55, 12],
           fill: true,
-          backgroundColor: ["#009BD1", "#0B4447", "#20CBD4", "#1AA6AD"],
+          backgroundColor: ["#009BD1", "#00455E", "#00ACEB", "#0090C4"],
           borderWidth: 0.5,
         },
       ],
