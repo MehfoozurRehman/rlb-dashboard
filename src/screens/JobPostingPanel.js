@@ -1,16 +1,16 @@
 import React from "react";
-import "./JobPosting.scss";
+import "./JobPostingPanel.scss";
 import { Nav, Col, Row, Form, Button } from "react-bootstrap";
 import { Switch, Route, Link } from "react-router-dom";
 import ButtonComponent from "../components/Button";
 import InputBox from "../components/Inputbox";
 
-export default class CompanyDetails extends React.Component {
+export default class JobPostingPanel extends React.Component {
   render() {
     return (
       <div className="panel__conatainer">
         <div className="panel__heading">Job Posting</div>
-        <div className="panel__main__job-posting" style={{ flex: 1 }}>
+        <div style={{ flex: 1 }}>
           <div className="company__details__content">
             <div className="company__details__row">
               <div className="company__details__row__attribute">

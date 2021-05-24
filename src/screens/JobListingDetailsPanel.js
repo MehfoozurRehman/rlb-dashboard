@@ -1,11 +1,11 @@
 import React from "react";
-import "./JobPosting.scss";
+import "./JobPostingPanel.scss";
 import { Nav, Col, Row, Form, Button } from "react-bootstrap";
 import { Switch, Route, Link } from "react-router-dom";
 import ButtonComponent from "../components/Button";
 import InputBox from "../components/Inputbox";
 
-export default class CompanyDetails extends React.Component {
+export default class JobListingDetailsPanel extends React.Component {
   render() {
     return (
       <div className="company__details__content">

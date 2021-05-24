@@ -23,6 +23,12 @@ export default class ButtonComponent extends React.Component {
           {this.props.placeholder}
         </Button>
       );
+    } else if (variant === "download") {
+      return (
+        <a className="btn__cta__download" href={this.props.downloadLink}>
+          {this.props.placeholder}
+        </a>
+      );
     }
   }
 }

@@ -1,18 +1,18 @@
 import React from "react";
 import { Col, Row, Button, Nav, Form } from "react-bootstrap";
-import "./JobListing.scss";
+import "./JobListingPanel.scss";
 import { Switch, Route, Link } from "react-router-dom";
 import PostingRow from "../components/PostingRow";
-import JobListingDetails from "./JobListingDetails";
+import JobListingDetailsPanel from "./JobListingDetailsPanel";
 
-export default class Posting extends React.Component {
+export default class JobListingPanel extends React.Component {
   render() {
     return (
       <div className="panel__conatainer">
-        <div className="panel__heading">Payments</div>
-        <div className="panel__main__job-posting" style={{ flex: 1 }}>
-          <Switch>
-            <Route path="/dashboard/job-listing" exact>
+        <Switch>
+          <Route path="/dashboard/job-listing" exact>
+            <div className="panel__heading">Job Listing</div>
+            <div style={{ flex: 1 }}>
               <Col>
                 <Row className="posting__table__row__heading">
                   <Col className="title table__heading">Title</Col>
@@ -34,12 +34,15 @@ export default class Posting extends React.Component {
                 <PostingRow status="live" />
                 <PostingRow status="live" />
               </Col>
-            </Route>
-            <Route path="/dashboard/job-listing/details">
-              <JobListingDetails />
-            </Route>
-          </Switch>
-        </div>
+            </div>
+          </Route>
+          <Route path="/dashboard/job-listing/details">
+            <div className="panel__heading">Job Listing - Details</div>
+            <div style={{ flex: 1 }}>
+              <JobListingDetailsPanel />
+            </div>
+          </Route>
+        </Switch>
       </div>
     );
   }

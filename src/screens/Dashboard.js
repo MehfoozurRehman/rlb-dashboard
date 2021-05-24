@@ -3,9 +3,9 @@ import SideBar from "../components/SideBar";
 import "./Dashboard.scss";
 import { Switch, Route, Link } from "react-router-dom";
 import DashboardPanel from "./DashboardPanel";
-import PaymentsPanel from "./PaymentsPanel";
-import JobListing from "./JobListing";
-import JobPosting from "./JobPosting";
+import ApplicantsPanel from "./ApplicantsPanel";
+import JobListingPanel from "./JobListingPanel";
+import JobPostingPanel from "./JobPostingPanel";
 
 export default class Dashboard extends React.Component {
   render() {
@@ -18,13 +18,13 @@ export default class Dashboard extends React.Component {
           </Route>
           <div className="main">
             <Route path="/dashboard/job-posting">
-              <JobPosting />
+              <JobPostingPanel />
             </Route>
             <Route path="/dashboard/job-listing">
-              <JobListing />
+              <JobListingPanel />
             </Route>
             <Route path="/dashboard/applicants">
-              <PaymentsPanel />
+              <ApplicantsPanel />
             </Route>
           </div>
         </Switch>
