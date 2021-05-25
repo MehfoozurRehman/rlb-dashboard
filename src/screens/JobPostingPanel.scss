@@ -11,10 +11,14 @@
   margin-bottom: 2em;
   width: 100%;
 }
+.company__details__row__textarea {
+  display: flex;
+  margin-bottom: 2em;
+  width: 100%;
+}
 
 .company__details__row__attribute {
   display: flex;
-  align-items: center;
   width: 300px;
 }
 .company__details__row__attribute svg {
@@ -24,12 +28,26 @@
 .company__details__row__attribute__heading {
   padding: 0em 1em;
   color: $font-color;
+  font-weight: 800;
   font-size: $normal-font-size + 2;
+}
+.select__multi-value {
+  background-color: $primary !important;
 }
 .company__details__row__value {
   color: $font-color;
-  font-size: $normal-font-size + 3;
-  font-weight: 800;
+  font-size: $normal-font-size;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.company__details__row__value__badge {
+  color: $font-color;
+  font-size: $normal-font-size;
+  border: 1.5px solid $dark;
+  padding: 0.3em 1em;
+  border-radius: 20px;
+  margin-right: 1em;
 }
 .company__details__row__input__box {
   width: 500px;

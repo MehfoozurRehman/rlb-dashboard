@@ -8,6 +8,8 @@ export default class InputboxComponent extends React.Component {
         placeholder={this.props.placeholder}
         type={this.props.type}
         className={this.props.ClassName}
+        as={this.props.textarea}
+        rows={5}
       />
     );
   }
