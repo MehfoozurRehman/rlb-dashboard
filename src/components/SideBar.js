@@ -1,12 +1,13 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from "../assets/NoPath.png";
 
 export default class SideBar extends React.Component {
   render() {
     return (
       <div className="side__bar">
-        <div className="side__bar__heading">RLB Production</div>
+        <img className="side__bar__heading" src={logo} alt="logo" />
         <Nav
           variant="pills"
           className="sidebar__links"
