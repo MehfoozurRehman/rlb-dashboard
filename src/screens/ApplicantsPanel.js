@@ -75,20 +75,17 @@ export default class ApplicantsPanel extends React.Component {
               <ApplicantsRow />
               <div className="page__slider">
                 <div className="slider">
-                  <Nav
-                    variant="pills"
-                    defaultActiveKey="/dashboard/job-posting"
-                  >
+                  <Nav variant="pills" defaultActiveKey="/dashboard/applicants">
                     <Nav.Link
-                      to="/dashboard/job-posting"
-                      href="/dashboard/job-posting"
+                      to="/dashboard/applicants"
+                      href="/dashboard/applicants"
                       as={Link}
                       className="nav__link__horizontal"
                     >
                       1
                     </Nav.Link>
                     <Nav.Link
-                      to="/dashboard/job-posting"
+                      to="/dashboard/applicants"
                       as={Link}
                       className="nav__link__horizontal"
                       eventKey="link-1"
@@ -96,7 +93,7 @@ export default class ApplicantsPanel extends React.Component {
                       2
                     </Nav.Link>
                     <Nav.Link
-                      to="/dashboard/job-posting"
+                      to="/dashboard/applicants"
                       as={Link}
                       className="nav__link__horizontal"
                       eventKey="link-2"
@@ -104,7 +101,7 @@ export default class ApplicantsPanel extends React.Component {
                       3
                     </Nav.Link>
                     <Nav.Link
-                      to="/dashboard/job-posting"
+                      to="/dashboard/applicants"
                       as={Link}
                       className="nav__link__horizontal"
                       eventKey="link-3"
@@ -112,7 +109,7 @@ export default class ApplicantsPanel extends React.Component {
                       4
                     </Nav.Link>
                     <Nav.Link
-                      to="/dashboard/job-posting"
+                      to="/dashboard/applicants"
                       as={Link}
                       className="nav__link__horizontal"
                       eventKey="link-4"
@@ -120,7 +117,7 @@ export default class ApplicantsPanel extends React.Component {
                       5
                     </Nav.Link>
                     <Nav.Link
-                      to="/dashboard/job-posting"
+                      to="/dashboard/applicants"
                       as={Link}
                       className="nav__link__horizontal"
                       eventKey="link-5"

@@ -7,7 +7,12 @@ export default class SideBar extends React.Component {
   render() {
     return (
       <div className="side__bar">
-        <img className="side__bar__heading" src={logo} alt="logo" />
+        <img
+          className="side__bar__heading"
+          src={logo}
+          alt="logo"
+          syle={{ width: "100%", height: "150px" }}
+        />
         <Nav
           variant="pills"
           className="sidebar__links"
@@ -128,7 +133,7 @@ export default class SideBar extends React.Component {
                   transform="translate(-274.941 -2236.292)"
                 />
               </svg>
-              Applicants
+              CV Banks
             </Nav.Link>
           </Nav.Item>
         </Nav>
