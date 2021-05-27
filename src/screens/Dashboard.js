@@ -6,6 +6,7 @@ import DashboardPanel from "./DashboardPanel";
 import ApplicantsPanel from "./ApplicantsPanel";
 import JobListingPanel from "./JobListingPanel";
 import JobPostingPanel from "./JobPostingPanel";
+import FilterPanel from "./FilterPanel";
 
 export default class Dashboard extends React.Component {
   render() {
@@ -25,6 +26,9 @@ export default class Dashboard extends React.Component {
             </Route>
             <Route path="/dashboard/applicants">
               <ApplicantsPanel />
+            </Route>
+            <Route path="/dashboard/filters">
+              <FilterPanel />
             </Route>
           </div>
         </Switch>

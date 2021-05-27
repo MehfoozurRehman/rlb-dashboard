@@ -168,10 +168,16 @@ export default function PostingRows() {
             <Col className="edits">
               <Button
                 variant="outline-primary"
-                style={{ border: "none", padding: "0em" }}
+                style={{
+                  border: "none",
+                  padding: "0em",
+                  wdth: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
               >
                 <Nav.Link
-                  className="data__row__btn"
+                  className="data__row__btn__reverse"
                   to="dashboard/job-listing/edit"
                   as={Link}
                 >
@@ -182,7 +188,13 @@ export default function PostingRows() {
             <Col className="edits">
               <Button
                 variant="outline-primary"
-                style={{ border: "none", padding: "0em" }}
+                style={{
+                  border: "none",
+                  padding: "0em",
+                  wdth: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
               >
                 <Nav.Link
                   className="data__row__btn"

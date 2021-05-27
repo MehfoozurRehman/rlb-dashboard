@@ -231,6 +231,7 @@ body {
   align-items: center !important;
   cursor: pointer;
   margin-right: 1em;
+  color: $dark;
 }
 .screen__back__btn svg {
   width: 30px !important;
@@ -239,8 +240,11 @@ body {
 }
 .screen__back__btn:hover {
   background-color: $primary !important;
+  color: $dark !important;
 }
-
+.options__list {
+  margin: 3em 0em;
+}
 .page__slider {
   margin-top: 2em;
   display: flex;

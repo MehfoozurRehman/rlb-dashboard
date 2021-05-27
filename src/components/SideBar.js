@@ -136,6 +136,30 @@ export default class SideBar extends React.Component {
               CV Banks
             </Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="/dashboard/filters"
+              className="nav__link__vertical"
+              eventKey="link-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 28.004 28.022"
+              >
+                <path
+                  id="_1659021"
+                  data-name="1659021"
+                  d="M26.45,0H1.555A1.055,1.055,0,0,0,.5,1.055,10.3,10.3,0,0,0,3.955,8.749l4.62,4.106a3.759,3.759,0,0,1,1.261,2.807V25.949a1.055,1.055,0,0,0,1.64.878L17.7,22.678a1.055,1.055,0,0,0,.47-.878V15.662a3.759,3.759,0,0,1,1.261-2.807l4.62-4.106A10.3,10.3,0,0,0,27.5,1.055,1.055,1.055,0,0,0,26.45,0Zm-3.8,7.172-4.62,4.107a5.871,5.871,0,0,0-1.969,4.384v5.574l-4.114,2.743V15.662a5.871,5.871,0,0,0-1.969-4.384L5.357,7.172A8.194,8.194,0,0,1,2.678,2.109H25.326a8.192,8.192,0,0,1-2.679,5.062Zm0,0"
+                  transform="translate(0 0.5)"
+                  fill="currentColor"
+                  stroke="currentColor"
+                />
+              </svg>
+              Filters
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
         <div className="side__bar__cta">
           <Nav.Link as={Link} to="/" className="nav__link__vertical">

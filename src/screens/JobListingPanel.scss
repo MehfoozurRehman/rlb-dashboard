@@ -164,7 +164,7 @@
 }
 .data__row__btn {
   border: 1px solid $dark !important;
-  min-width: 80px !important;
+  min-width: 110px !important;
   border-radius: 5px !important;
   background-color: $primary !important;
   font-weight: 600 !important;
@@ -175,6 +175,20 @@
   background-color: $dark !important;
   color: $primary !important;
 }
+.data__row__btn__reverse {
+  border: 1px solid $dark !important;
+  min-width: 110px !important;
+  border-radius: 5px !important;
+  background-color: $dark !important;
+  font-weight: 600 !important;
+  padding: 0.3em 1.2em !important;
+  color: $primary !important;
+}
+.data__row__btn__reverse:hover {
+  background-color: $primary !important;
+  color: $dark !important;
+}
+
 @media (max-width: 1440px) {
   .postingCard {
     max-width: 48% !important;
